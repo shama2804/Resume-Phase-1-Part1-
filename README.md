@@ -47,25 +47,27 @@ This marks the successful completion of the **first part of Phase 1**, which lay
 ---
 
 ## 🗂️ Folder Structure
-Resume_pro/
-├── app.py # Main Flask application
-├── export_to_csv.py # Script to export data to CSV
-├── uploads/ # Uploaded resumes are saved here
-├── templates/
-│ └── form.html # Editable HTML form
-├── backend/
-│ ├── extract_resume.py # Gathers all field extractors
-│ └── db_handler.py # MongoDB insert logic
-├── utils/
-│ └── extractors/
-│ ├── personal.py # Extract personal details
-│ ├── education.py # Extract education details
-│ ├── experience.py # Extract experience
-│ ├── skills.py # Extract skills
-│ ├── links.py # Extract links
-│ ├── work.py # Extract job/portfolio files
-│ └── projects.py # Extract project details
 
+```
+Resume_pro/
+├── app.py                  # Main Flask application
+├── export_to_csv.py        # Script to export data to CSV
+├── uploads/                # Uploaded resumes are saved here
+├── templates/
+│   └── form.html           # Editable HTML form
+├── backend/
+│   ├── extract_resume.py   # Gathers all field extractors
+│   └── db_handler.py       # MongoDB insert logic
+├── utils/
+│   └── extractors/
+│       ├── personal.py     # Extract personal details
+│       ├── education.py    # Extract education details
+│       ├── experience.py   # Extract experience
+│       ├── skills.py       # Extract skills
+│       ├── links.py        # Extract links
+│       ├── work.py         # Extract job/portfolio files
+│       └── projects.py     # Extract project details
+```
 
 
 ---
